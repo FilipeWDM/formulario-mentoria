@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E5E5E5
+}
+
+header h1{
+    font-family: 'Staatliches', sans-serif;
+    color: #ffff;
+    font-size: 48px;
+}
+
+header p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #ffff;
+}
+.page{
+    width: 736px;
+    margin: 0 auto;
+}
+
+header{
+    width: 319px;
+    margin-top: 74px;
+
+}
+
+body::before{
+    content: "";
+    background-color: #535971;
+    height: 436px;
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+}
+
+form{
+    background-color: #ffff ;
+    width: 750px;
+    height: 1084px;
+    margin-top: 50px;
+    top: 0;
+    left: 0;
+    padding: 65px;
+    border-radius: 8px 8px 0px 0px;
+    
+}
+
+form h1{
+    font-size: 24px;
+    font-family: 'Staatliches', sans-serif;
+    color: #535971;
+    border-bottom: 1px solid #E6E6F0;
+    margin-bottom: 25px;
+}
+form label{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+form .name{
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.name input{
+    width: 300px;
+    height: 56px;
+    border-radius: 8px;
+    background-color: #FAFAFC;
+    
+}
+
+.input-name .input-sobrenome {
+    display: flex;
+    flex-direction: column;
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;  
+}
+
+.user input{
+    width: 100%;
+    height: 56px;
+    border-radius: 8px;
+    background-color: #FAFAFC;
+    
+}
+
+.mentor{
+    display: flex;
+    flex-direction: column;
+}
+
+.mentor input{
+    width: 100%;
+    height: 56px;
+    border-radius: 8px;
+    background-color: #FAFAFC;
+    margin-bottom: 30px;
+}
+
+.dates h2{
+    font-size: 20px;
+    font-family: 'Staatliches', sans-serif;
+    color: #535971;
+}
+
+.first-date, .second-date{
+    display: flex;
+    gap: 20px;
+     
+}
+
+.first-date .input-one input{
+    width: 300px;
+    height: 56px;
+    border-radius: 8px;
+    background-color: #FAFAFC;
+    margin-bottom: 30px;
+}
+
+.first-date .input-two input{
+    border-radius: 8px;
+    background-color: #FAFAFC;
+    margin-bottom: 30px;
+    width: 140px;
+    height: 56px;
+}   
+
+.first-date .input-three input{
+    border-radius: 8px;
+    background-color: #FAFAFC;
+    margin-bottom: 30px;
+    width: 140px;
+    height: 56px;
+}
+
+
+.second-date .input-one input{
+    width: 300px;
+    height: 56px;
+    border-radius: 8px;
+    background-color: #FAFAFC;
+    margin-bottom: 30px;
+}
+
+.second-date .input-two input{
+    border-radius: 8px;
+    background-color: #FAFAFC;
+    margin-bottom: 30px;
+    width: 140px;
+    height: 56px;
+}   
+
+.second-date .input-three input{
+    border-radius: 8px;
+    background-color: #FAFAFC;
+    margin-bottom: 30px;
+    width: 140px;
+    height: 56px;
+}
+
+footer{
+    background-color: #535971;
+    height: 160px;
+    width: 750px;;
+    border-radius: 0px 0px 15px 15px;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+     
+}
+
+footer button{
+    margin: 50px 50px;
+    width: 608px;
+    height: 55.65px;
+    background-color: #FF5374;
+    border-radius: 30px;
+    border: none;
+    font-family: 'Staatliches', sans-serif;
+    font-size: 20px;
+    color: #ffff;
+}
